@@ -1,0 +1,28 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <list>
+          <option value="fastapi" />
+          <option value="uvicorn" />
+          <option value="celery" />
+          <option value="redis" />
+          <option value="python-dotenv" />
+          <option value="SQLAlchemy" />
+          <option value="alembic" />
+          <option value="psycopg" />
+          <option value="requests" />
+          <option value="pytest" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="playwright_course.sec3_page_object_model.hw1.pages.products_page.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
